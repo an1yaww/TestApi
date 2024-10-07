@@ -15,6 +15,7 @@ public class ApiTests {
 
     @Test
     public void testGetRequest (){
+        //test comment
         given()
                 .when()
                 .get("/posts/1")
